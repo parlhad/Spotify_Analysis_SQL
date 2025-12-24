@@ -326,3 +326,14 @@ FROM spotify;
 ```
 
 ---
+
+---
+
+## 👤 Author
+
+**Author Name:** Pralhad Balaji Jadhav  
+**Email:** parlhadjadhav7@gmail.com  
+**LinkedIn:** www.linkedin.com/in/pralhad-jadhav-
+
+---
+
