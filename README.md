@@ -4,6 +4,8 @@
 
 ## 📌 Project Overview
 
+<img src="spotify_logo.jpg" alt="Spotify Logo" width="250"/>
+
 This project is an **advanced SQL-based data analysis** on a real-world **Spotify music dataset**, designed to demonstrate strong proficiency in **SQL querying, data exploration, analytical thinking, and window functions**.
 
 The dataset captures detailed information about songs, artists, albums, audio features, engagement metrics, and streaming platforms. Using this data, the project performs **Exploratory Data Analysis (EDA)** and **complex analytical queries** to extract meaningful business and musical insights.
