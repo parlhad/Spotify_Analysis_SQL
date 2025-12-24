@@ -1,3 +1,105 @@
+# 🎧 Advanced SQL Project – Spotify Data Analysis
+
+---
+
+## 📌 Project Overview
+
+This project is an **advanced SQL-based data analysis** on a real-world **Spotify music dataset**, designed to demonstrate strong proficiency in **SQL querying, data exploration, analytical thinking, and window functions**.
+
+The dataset captures detailed information about songs, artists, albums, audio features, engagement metrics, and streaming platforms. Using this data, the project performs **Exploratory Data Analysis (EDA)** and **complex analytical queries** to extract meaningful business and musical insights.
+
+This project is structured to reflect **industry-level SQL practices**, including:
+- Clean schema design
+- Aggregations and filtering
+- Subqueries and Common Table Expressions (CTEs)
+- Window functions for ranking and partitioned analysis
+- Platform comparison (Spotify vs YouTube)
+- Feature-based song analysis
+
+The goal is to simulate how a **Data Analyst / Data Engineer** would work with a production-style music analytics database.
+
+---
+
+## 🗂️ Dataset Description
+
+The Spotify dataset contains:
+- Artist and track metadata
+- Album information and release types
+- Audio features such as energy, danceability, valence, tempo
+- Engagement metrics like views, likes, comments
+- Streaming statistics across platforms
+- Licensing and official video indicators
+
+This rich structure allows both **descriptive analysis** and **advanced analytical queries**.
+
+---
+
+## 🧱 Database Schema
+
+```sql
+DROP TABLE IF EXISTS spotify;
+
+CREATE TABLE spotify (
+    artist VARCHAR(255),
+    track VARCHAR(255),
+    album VARCHAR(255),
+    album_type VARCHAR(50),
+    danceability FLOAT,
+    energy FLOAT,
+    loudness FLOAT,
+    speechiness FLOAT,
+    acousticness FLOAT,
+    instrumentalness FLOAT,
+    liveness FLOAT,
+    valence FLOAT,
+    tempo FLOAT,
+    duration_min FLOAT,
+    title VARCHAR(255),
+    channel VARCHAR(255),
+    views FLOAT,
+    likes BIGINT,
+    comments BIGINT,
+    licensed BOOLEAN,
+    official_video BOOLEAN,
+    stream BIGINT,
+    energy_liveness FLOAT,
+    most_played_on VARCHAR(50)
+);
+```
+
+---
+
+## 🛠️ Skills Demonstrated
+
+- Advanced SQL querying  
+- Data cleaning and validation  
+- Aggregations and grouping  
+- Conditional logic using CASE statements  
+- Window functions (`DENSE_RANK`)  
+- CTEs (`WITH` clause)  
+- Platform-wise performance comparison  
+- Analytical problem solving  
+
+---
+
+## 🎯 Project Objective
+
+To analyze Spotify music data and answer **real-world analytical questions**, such as:
+- Artist and track performance
+- Popularity and engagement trends
+- Audio feature comparisons
+- Platform dominance (Spotify vs YouTube)
+- Ranking and segmentation analysis
+
+This project is suitable for showcasing **SQL expertise** in:
+- Data Analyst roles
+- Business Intelligence roles
+- Entry-level Data Engineering roles
+
+---
+
+
+
 # 🎧 Spotify SQL Data Analysis Project
 
 ---
