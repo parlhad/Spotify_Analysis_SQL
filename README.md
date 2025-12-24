@@ -4,7 +4,7 @@
 
 ## 📌 Project Overview
 
-<img src="spotify_logo.jpg" alt="Spotify Logo" width="500"/>
+<img src="spotify_logo.jpg" alt="Spotify Logo" width="1000"/>
 
 This project is an **advanced SQL-based data analysis** on a real-world **Spotify music dataset**, designed to demonstrate strong proficiency in **SQL querying, data exploration, analytical thinking, and window functions**.
 
